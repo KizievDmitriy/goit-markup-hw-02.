@@ -1,48 +1,40 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --accent-text-color: #ffffff;
+}
 body {
-  font-family: Roboto;
-  color: #212121;
+  color: var(--primary-text-color);
 }
-
-.accent {
-  color: #2196f3;
-}
+/* heder */
 .logo {
-  text-decoration: none;
-  color: black;
+  color: var(--primary-text-color);
   font-family: Raleway;
-  font-size: 26px;
-  line-height: 0.03em;
-}
-.heder-links {
-  color: #212121;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 500;
-}
-
-.heder-links:hover {
-  color: #2196f3;
-}
-/* Block-hero */
-.block-hero {
-  background: #2f303a;
-  text-align: center;
-}
-.block-hero-text {
-  color: #ffffff;
   font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  padding-top: 200px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
-li {
-  list-style-type: none;
-  padding-left: 0;
+.accent {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+.links-nav .link {
+  color: var(--primary-text-color);
 }
 
-.logo-footer {
-  color: black;
-  text-decoration: none;
+.links-nav .link:hover,
+.contacts-nav .mail-tel:focus,
+.contacts-nav .mail-tel:hover,
+.links-nav .link:focus {
+  color: var(--accent-color);
 }
+.contacts-nav .mail-tel {
+  color: var(--title-text-color);
+}
+/* block-main */
+/* filter-button-section */
+/* projects-menu */
