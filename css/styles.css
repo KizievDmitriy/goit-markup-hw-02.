@@ -13,6 +13,7 @@ body {
   padding: 0;
 }
 /* heder */
+
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway;
@@ -119,4 +120,28 @@ body {
 .hero-btn {
   padding: 10px 32px;
   margin-bottom: 200px;
+}
+.list .pecularities-title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+.list .pecularities-text {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.comand-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.comand-text {
+  font-size: 16px;
+  line-height: 1.18;
 }
