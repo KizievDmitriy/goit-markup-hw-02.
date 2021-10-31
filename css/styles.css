@@ -47,6 +47,7 @@ body {
 /* block-main */
 /* filter-button-section */
 .btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
