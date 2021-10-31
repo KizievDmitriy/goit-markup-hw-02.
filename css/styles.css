@@ -1,3 +1,5 @@
+/* PORTFOLIO.HTML */
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -15,7 +17,7 @@ body {
   color: var(--primary-text-color);
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -81,7 +83,7 @@ body {
   color: var(--accent-text-color);
 
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -98,4 +100,23 @@ body {
 }
 .footer a {
   text-decoration: none;
+}
+
+/* INDEXT.HTML */
+/* block-hero */
+.hero {
+  background: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--accent-text-color);
+  padding-top: 200px;
+}
+.hero-btn {
+  padding: 10px 32px;
+  margin-bottom: 200px;
 }
