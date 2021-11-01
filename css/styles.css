@@ -29,6 +29,7 @@ body {
 }
 .list {
   list-style: none;
+  font-style: normal;
 }
 .links-nav .link {
   font-weight: 500;
@@ -90,9 +91,10 @@ body {
 .footer {
   background: #2f303a;
 }
+
 .logo-footer {
   color: var(--accent-text-color);
-
+  font-style: normal;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -100,6 +102,7 @@ body {
 }
 .footer-mail,
 .footer-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
