@@ -150,6 +150,10 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+/* Block-People */
+.comand {
+  background: #f5f4fa;
+}
 .work-title {
   font-weight: 700;
   font-size: 36px;
