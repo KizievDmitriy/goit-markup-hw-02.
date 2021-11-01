@@ -128,8 +128,15 @@ body {
   padding-top: 200px;
 }
 .hero-btn {
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
   padding: 10px 32px;
   margin-bottom: 200px;
+}
+
+.pecularities-title {
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .list .pecularities-title {
   font-size: 14px;
